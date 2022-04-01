@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage("buid") {
 			steps {
-				echo "building..."
+				make re
 			}
 		}
 		stage("test") {

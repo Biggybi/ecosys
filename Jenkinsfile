@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage("buid") {
 			steps {
-				make re
+				echo "building..."
 			}
 		}
 		stage("test") {
@@ -17,11 +17,11 @@ pipeline {
 			}
 		}
 	}
-	post {
-		always {
-		}
-		failure {
-		}
-	}
+	// post {
+	// 	always {
+	// 	}
+	// 	failure {
+	// 	}
+	// }
 }
 

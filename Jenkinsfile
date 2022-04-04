@@ -5,9 +5,8 @@ pipeline {
 			steps {
 				echo "building..."
 				echo "change test..."
-				sh {
-					make
-				}
+				sh 'make'
+
 			}
 		}
 		stage("test") {

@@ -19,7 +19,7 @@ public class Grid {
 	}
 
 	private void printSepLineEdge() {
-		System.out.println("+" + "-".repeat((x * 8) + -1) + "+");
+		System.out.println("+" + "-".repeat((x * 8) - 1) + "+");
 	}
 
 	private void printSepLineMid() {
